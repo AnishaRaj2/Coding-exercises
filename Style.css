@@ -1,13 +1,14 @@
+body {
+    background-color: lightcyan;
+}
+
 h1{
     font-family: Inconsolata ;
     background-color: rgb(250, 230, 116);
     color: brown;
-  }
+}
 
 .first_para {
     color: rebeccapurple;
 }
 
-body {
-    background-color: lightcyan;
-}

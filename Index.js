@@ -1,7 +1,6 @@
 function Printstr (a) {
-    const str=a;
-    console.log(str);
-    return str;
+    console.log(a);
+    return a;
 }
 
 function Bingo (a) {
@@ -12,8 +11,11 @@ function Bingo (a) {
         }
 }
 
+//calling Print String function
 Printstr ("Hello");
 Printstr ("How are you?");
+
+//calling Bingo function
 Bingo (2);
 Bingo (5);
 Bingo (7);
