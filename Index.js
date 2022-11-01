@@ -19,3 +19,4 @@ Printstr ("How are you?");
 Bingo (2);
 Bingo (5);
 Bingo (7);
+Bingo(1);
