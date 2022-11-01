@@ -1,22 +1,21 @@
-function Printstr (a) {
-    console.log(a);
-    return a;
+
+const printString = function (text) {
+    return text;
 }
 
-function Bingo (a) {
-    if (a>5){
-        return((console.log("Bingo!")));
+const checkBingo = function (number) {
+    if (number>5){
+        return "Bingo!";
     } else {
-        return((console.log("Try next time.")));
+        return "Try next time.";
         }
-}
+};
 
 //calling Print String function
-Printstr ("Hello");
-Printstr ("How are you?");
+console.log(printString ("Hello"));
+console.log(printString ("How are you?"));
 
-//calling Bingo function
-Bingo (2);
-Bingo (5);
-Bingo (7);
-Bingo(1);
+//calling checkBingo function
+console.log(checkBingo(2));
+console.log(checkBingo(5));
+console.log(checkBingo(7));
